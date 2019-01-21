@@ -1,40 +1,57 @@
 import React from "react"
 import {BrowserRouter as Router,Route,Redirect,Switch,NavLink} from "react-router-dom"
 import "../css/home.css"
-import Home1 from "./Home1"
-import Home2 from "./Home2"
+import Footer from "./Footer"
+import $ from "jquery"
 const active={
     "color": "#fff",
     'background': '#ff5832'
 }
 class Home extends React.Component{
+    tap(i){
+        if(i==1){
+            $(".active1").eq(1).css({"color":"#fff","background":"#ff5832"})
+        }else{
+            $(".active1").eq(1).css({"color":"#ff5832","background":"#fff"})
+        }
+        if(i==0){
+            $(".active1").eq(0).css({"color":"#fff","background":"#ff5832"})
+        }else{
+            $(".active1").eq(0).css({"color":"#ff5832","background":"#fff"})
+        }
+    }
     render(){
+        this.state={
+            sArr:["全部订单","可抢订单"]
+        } 
+        var jsx=[];
+        var _this=this
+        this.state.sArr.map(function(item,i){ 
+            jsx.push(<span className="active1" key={i} onClick={_this.tap.bind(_this,i)}>{item}</span>)
+         })
+        
         return( 
-        <Router>
             <div className="Home">
                 <header>
                     <div><i className="iconfont icon-ditu"></i><span>郑州市</span></div>
                    
-                        <div>
-                            <NavLink className="home1" to="/home1"  activeStyle={active}>
-                                <span>全部订单</span>
-                            </NavLink>
-                            <NavLink to="/home2" className="home2" activeStyle={active}>
-                                <span>可抢订单</span>
-                            </NavLink>
-                            
+                        <div className="top">
+                            {
+                               jsx
+                            }
+                                                          
                         </div>
-                    
+
                     <div><i className="iconfont icon-tongzhi"></i></div>
                 </header>
-                <Switch>
-                        <Route path="/home1" component={Home1}></Route>
-                        <Route path="/home2" component={Home2}></Route>
-                        <Redirect to="/home1" />
-                </Switch>
+                
+                <Footer/>
              </div>
-        </Router>
+
         )   
+    }
+    componentWillMount(){
+       
     }
 }
 

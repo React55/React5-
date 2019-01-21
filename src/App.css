@@ -1,11 +1,9 @@
-
-
-
 .App{
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-size: .42rem
+  font-size: .42rem;
+  overflow: hidden;
 }
 .App>div{
   display: flex;

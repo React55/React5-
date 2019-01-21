@@ -1,3 +1,7 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+}
 .Home>header{
     height: .9rem;
     background: pink;
@@ -16,19 +20,20 @@
     font-size: .5rem;
     margin-right: .3rem;
 }
-.Home>header>div:nth-of-type(2) .home1{
+
+.Home>header>div:nth-of-type(2) span:nth-of-type(1){
     display: inline-block;
     width: 1.4rem;
     text-align: center;
     padding: 0.1rem 0;
     font-size: 0.26rem;
     border-radius: 0.25rem 0 0 0.25rem;
-    background: #fff;
-    color: #ff5832;
+    color: #fff;
     border: 1px solid #ff5832;
     border-right: 0;
+    background: #ff5832
 }
-.Home>header>div:nth-of-type(2) .home2{
+.Home>header>div:nth-of-type(2) span:nth-of-type(2){
     display: inline-block;
     width: 1.4rem;
     text-align: center;
@@ -43,6 +48,34 @@
 section{
     flex: 1;
 }
+.active{
+    color: #ff5832;
+}
+footer{
+    width: 100vw;
+    background: #fff;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 1rem;
+    border-top: 1px solid #d9d9d9;
+    font-size: 0.2rem;
+    position: fixed;
+    bottom: 0;
+}
+footer>a{
+    color: #c6c6c6;
+}
+footer>a>figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>a>figure>.iconfont{
+    font-size: .42rem;
+  }
+  
+  
 
 
 

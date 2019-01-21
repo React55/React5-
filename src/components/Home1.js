@@ -1,20 +1,32 @@
 import React from "react"
-import {BrowserRouter as Router,Route,Redirect,Switch,NavLink} from "react-router-dom"
 import "../css/home1.css"
 import $ from "jquery";
-import "../css/home1.css"
+
 class Home1 extends React.Component{
     render(){
         return(
             <div className="Home1">
-                <header>
-                    <div className="left"></div>
-                    <div className="right iconfont icon-jiantou9"></div>
-                </header>
+          
             </div>
         )
         
     }
+    componentWillMount(){
+        var _this = this;
+        $.ajax({
+            type:"post",
+            url:"/api/creditUnion/largeCredit/getPageLargeCredit",
+            async:false,
+            dataType:"json",
+            success:function (data) {
+                console.log(data.data.pageDate.list)
+               
+            }
+
+        })
+    }
+   
+    
 }
 
 export default Home1;
