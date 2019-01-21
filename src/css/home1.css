@@ -1,0 +1,21 @@
+header{
+    height: 0.8rem;
+    border-top: 1px solid #ccc;
+    background: #f6f6f6;
+}
+.left{
+    width: 88vw;
+    height: 0.8rem;
+    background: red;
+    float: left;
+    overflow: hidden;
+}
+.right{
+    width: 12vw;
+    float: left;
+    height: 0.8rem;
+    background: pink;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.8rem
+}

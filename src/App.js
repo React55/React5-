@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router,Route,Link,Redirect,Switch,NavLink} from "react-router-dom"
+import {BrowserRouter as Router,Route,Redirect,Switch,NavLink} from "react-router-dom"
 import './App.css';
 import Home from "./components/Home";
 import Eva from "./components/Eva";
@@ -27,25 +27,25 @@ class App extends Component {
               <footer>
                 <NavLink to="/home" activeStyle={active}>
                   <figure>
-                    <span className="iconfont icon-zhifubao1"></span>
-                    <figcaption>支付宝</figcaption>
+                    <span className="iconfont icon-iconfontzhizuobiaozhun023101"></span>
+                    <figcaption>首页</figcaption>
                   </figure>
                 </NavLink>
                 <NavLink to="/eva" activeStyle={active}>
                   <figure>
-                    <span className="iconfont icon-koubei"></span>
-                    <figcaption>口碑</figcaption>
+                    <span className="iconfont icon-weibiaoti2"></span>
+                    <figcaption>客户</figcaption>
                   </figure>
                 </NavLink>
                 <NavLink to="/friend" activeStyle={active}>
                   <figure>
-                    <span className="iconfont icon-pengyou"></span>
-                    <figcaption>朋友</figcaption>
+                    <span className="iconfont icon-shequzhongxin"></span>
+                    <figcaption>社区</figcaption>
                   </figure>
                 </NavLink>
                 <NavLink to="/my" activeStyle={active}>
                   <figure>
-                    <span className="iconfont icon-qian"></span>
+                    <span className="iconfont icon-wode"></span>
                     <figcaption>我的</figcaption>
                   </figure>
                 </NavLink>
