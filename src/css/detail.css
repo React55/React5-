@@ -3,7 +3,11 @@
     flex-direction: column
 }
 .Detail>header{
+    position: fixed;
+    top: 0;
+    z-index: 2;
     height: 0.86rem;
+    width: 100vw;
     background: #fff;
     display: flex;
     flex-direction: row;
@@ -21,6 +25,7 @@
     text-indent: -0.5rem;
 }
 .Detail>section{
+    margin-top: 0.86rem;
     flex: 1;
     overflow-y: auto;
 }

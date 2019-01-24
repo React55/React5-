@@ -1,8 +1,8 @@
-.xindai{
+.Renzheng{
     display: flex;
     flex-direction: column
 }
-.xindai>header{
+.Renzheng>header{
     height: 0.86rem;
     background: #fff;
     display: flex;
@@ -10,17 +10,61 @@
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
 }
-.xindai>header>i{
+.Renzheng>header>i{
     font-size: 0.4rem;
     text-indent: 0.3rem;
     line-height: 0.86rem;
 }
-.xindai>header>span{
+.Renzheng>header>span{
     font-size: 0.3rem;
     line-height: 0.86rem;
     text-indent: -0.5rem;
 }
-
-
-
-
+.Renzheng>.top{
+    height: 0.8rem;
+    background: #fff;
+}
+.Renzheng>.top>span{
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    color: #ccc;
+    display: inline-block;
+    text-indent: 0.2rem;
+    border-bottom: 1px solid #ccc;
+}
+.Renzheng>.name1>p{
+    height: 0.8rem;
+    width: 100vw;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.Renzheng>.name1>p:nth-of-type(1){
+    margin-top: 0.5rem;
+}
+.Renzheng>.name1>p>span{
+    width: 30vw;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    color: #888;
+    text-align: center;
+    display: inline-block;
+    
+}
+.Renzheng>.name1>p>input{
+    border: none;
+    outline: none;
+    height: 0.78rem;
+    color: #303030;
+    font-size: 0.3rem;
+}
+.Renzheng>.name1>p:nth-of-type(3){
+    height: 0.8rem;
+    width: 80vw;
+    text-align: center;
+    margin: 1rem auto;
+    color: #fff;
+    background: #f40;
+    border-radius: 0.1rem;
+    line-height: 0.8rem
+}

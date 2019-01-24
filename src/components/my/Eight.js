@@ -8,7 +8,9 @@ class Eight extends React.Component{
       console.log(111)
       this.props.history.go(-1)
   }
-
+  btn1(){
+    this.props.history.push("./register")
+  }
     render(){
         return(
           <div className="eight">
@@ -35,7 +37,7 @@ class Eight extends React.Component{
                 <span className="iconfont icon-youjiantou"></span>
               </NavLink>
             </div>
-            <div className="eibottom">
+            <div className="eibottom" onClick={this.btn1.bind(this)}>
               <p>退出登录</p>
             </div>
           </div>
