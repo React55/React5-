@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router,Route,Redirect,Switch,NavLink} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 const active={
   "color":"red"
 }

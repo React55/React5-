@@ -1,1 +1,25 @@
-
+.Home2>header{
+    height: .8rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.Home2>header>i{
+    font-size: 0.3rem;
+    margin-left: 0.3rem;
+    line-height: .8rem;
+}
+.Home2>header>span{
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+}
+.Home2>section{
+    margin: 0
+}
+.Home2>section>p{
+    font-size: 0.2rem;
+    line-height: .3rem;
+    color: #747373;
+    margin-left: 0.1rem;
+}
