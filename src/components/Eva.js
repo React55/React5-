@@ -100,7 +100,7 @@ class Eva extends React.Component{
                     <div className="conBox">
                         <h4>
                             <span>{item.newsProperty.name}</span>
-                            <i>|</i>
+                            <i>|</i>       
                             <em>{item.title}</em>
                         </h4>
                         <div className={item.imgUrls===null? "coverBox":"coverImg"}>
@@ -248,13 +248,13 @@ class Eva extends React.Component{
                                <em></em>
                                 <span>展业海报</span>
                            </div>
-                           <div className="more">
-                               <NavLink to="/eposter">
+                           <NavLink to="/eposter">
 
-                                <span>更多</span>
-                                <i className="iconfont icon-youjiantou"></i> 
-                                </NavLink>  
-                           </div>
+                            <div className="more">
+                                    <span>更多></span>
+                                           
+                            </div>
+                           </NavLink>  
                        </h2>
                         <ul className="posterBox">
                            {posterJsx}
@@ -267,8 +267,8 @@ class Eva extends React.Component{
                                 <span>信贷资讯</span>
                            </div>
                            <div>
-                                <span>更多</span>
-                                <i className="iconfont icon-youjiantou"></i>   
+                                <span>更多></span>
+                                  
                            </div>
                         </h2>
                         <ul className="newList">

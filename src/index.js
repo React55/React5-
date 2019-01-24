@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+//引入此路径才不会打包失败
+
+
 import * as serviceWorker from './serviceWorker';
 import 'antd-mobile/dist/antd-mobile.css'
 

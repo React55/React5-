@@ -7,6 +7,15 @@ import Friend from "./components/Friend";
 import My from "./components/My";
 import Eposter from "./components/Eva/Eposter"
 import Edetail from "./components/Eva/Edetail"
+import Home1 from "./components/Home1"
+import Home2 from "./components/Home2"
+import Detail from "./components/Detail"
+import Renzheng from "./components/Renzheng"
+import Register from "./components/Register"
+import Login from "./components/Login"
+
+
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +29,12 @@ class App extends Component {
                   <Route path="/my" component={My}></Route>
                   <Route path="/eposter" component={Eposter}></Route>
                   <Route path="/edetail" component={Edetail}></Route>
+                  <Route path="/home1" component={Home1}></Route>
+                  <Route path="/home2" component={Home2}></Route>
+                  <Route path="/renzheng" component={Renzheng}></Route>
+                  <Route path="/register" component={Register}></Route>
+                  <Route path="/login" component={Login}></Route>
+                  <Route path="/detail/:id" component={Detail}></Route>
                   <Redirect to="/home"/>
                 </Switch> 
             </div>

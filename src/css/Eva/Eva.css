@@ -59,7 +59,7 @@
 .Eva>section>.poster>.tit{
     margin-right: .4rem;
 }
-.tit{
+.Eva  .tit{
     height: 1.18rem;
     font-size: .35rem;
     font-weight: normal;
@@ -69,21 +69,21 @@
     justify-content: space-between;
     border-bottom: .02rem solid #eaeaea;
 }
-.tit>div{
+.Eva  .tit>div{
     display: flex;
     align-items: center;
 }
 a{
     color: #a2a2a2;
 }
-.tit>div em{
+.Eva  .tit>div em{
     display: block;
     height: .35rem;
     width: .1rem;
     background: #ff5935;
     margin-right: .1rem;
 }
-.tit>div  .iconfont{
+.Eva .tit>div  .iconfont{
     font-size: .4rem;
 }
 .Eva>section>.poster>.posterBox{
