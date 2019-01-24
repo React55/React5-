@@ -1,0 +1,85 @@
+.ei20{
+    
+}
+.ei20header{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white;
+    border-bottom: 2px solid #cccccc;
+}
+.ic{
+    font-size: 0.3rem;
+}
+
+.tx{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.2rem;
+    border-bottom: 2px solid #cccccc;
+    background: white
+}
+.tx span{
+    font-size: 0.3rem;
+    line-height: 150px;
+}
+.tx p{
+    display: flex
+}
+.tx p div{
+    width: 1rem;
+    height: 1rem;
+    background: #cccccc;
+    border-radius: 50%
+}
+.tx p i{
+    font-size: 0.2rem;
+    line-height: 150px;
+    margin-left: 0.2rem
+}
+.c{
+    font-size: 0.3rem;
+}
+.nc{
+    height: 1.2rem;
+    padding: 0rem 0.2rem;
+    border-bottom: 2px solid #cccccc;
+    background: white;
+}
+.nc span{
+    font-size: 0.3rem;
+    line-height: 1.2rem;
+    outline: none;
+    border: 0
+}
+.nc input{
+    outline: none;
+    border: 0;
+    font-size: 0.26rem;
+    text-indent: 0.2rem;
+    margin-left: .2rem;
+    background: white;
+    width:5rem;
+}
+.nc i{
+    font-size: 0.2rem;
+    line-height: 150px;
+    margin-left: 0.2rem;
+    margin-left: .72rem;
+}
+.ei20bottom{
+    padding: 0.4rem 0.2rem 0rem;
+}
+.ei20bottom p{
+    color: white;
+    background: #ff5832;
+    font-size: 0.32rem;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: 15px;
+}
