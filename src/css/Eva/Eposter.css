@@ -1,0 +1,124 @@
+.Eposter{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/* 头部 */
+.Eposter>header{
+    height: .9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: .02rem solid #eaeaea;
+    background: #fff;
+    font-size: .45rem;
+}
+.Eposter>header>.iconfont{
+    font-size: .55rem;
+}
+.Eposter>header>.icon-zuojiantou{
+    margin-left: .6rem;
+}
+.Eposter>header>.icon-sousuo{
+    margin-right: .6rem;
+}
+/* 个人名片 */
+.Eposter>a>.per{
+    height: 1rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    font-size: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.Eposter>a>.per .iconfont{
+    font-size: .45rem;
+}
+.Eposter>a>.per>h4{
+    margin-left: .45rem;
+}
+.Eposter>a>.per>h4>.icon-04f{
+    color: #ff5733;
+    margin-right: .2rem;
+}
+.Eposter>a>.per>h5{
+    margin-right: .45rem;
+}
+/* 导航 */
+.Eposter>nav{
+    margin-top: .2rem;
+    padding-left: .3rem;
+    border-bottom: .02rem solid #eaeaea;
+    background: #fff;
+    height: 1.35rem;
+   
+}
+.Eposter>nav>ul{
+    float: left;
+    white-space: nowrap;
+    width:100%;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    display: inline;
+}
+.Eposter>nav>ul>li{
+    font-size: .4rem;
+    padding: .3rem .4rem;
+    display: inline-block;
+    
+}
+.Eposter>nav>ul .click{
+    border-bottom: .03rem solid #f0603e;
+    
+}
+.Eposter>section{
+    flex: 1;
+    background: #fff;
+    overflow: auto;
+}
+
+
+.Eposter>section>ul>li{
+    width: 29%;
+    float: left;
+    margin-left: 3%;
+    margin-top: .7rem;
+    
+    
+    
+}
+.Eposter>section>ul>li>div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: .02rem solid #eaeaea;
+}
+.Eposter>section>ul>li>div>img{
+    width: 100%;
+    height: 100%;
+}
+.Eposter>section>ul>li>div>p{
+    position: absolute;
+    height: .4rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: .3rem;
+    top: 0;
+    padding-right: .1rem;
+
+}
+.Eposter>section>ul>li>span{
+    margin-top: .4rem;
+    display: block;
+    font-size: .3rem;
+    text-align: center;
+}
+.Eposter>section>div{
+    width: .5rem;
+    height: 3rem;
+    background: #fff;
+    float: left;
+}

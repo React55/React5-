@@ -17,11 +17,7 @@
   height: 100%;
   
 }
-.App>div>div>section{
-  flex: 1;
 
-  overflow: auto;
-}
 .App>div>div>footer{
   height: 1rem;
   border-top: 1px solid #d9d9d9;

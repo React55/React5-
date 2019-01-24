@@ -1,12 +1,8 @@
 import React from "react"
-import {BrowserRouter as Router,Route,Redirect,Switch,NavLink} from "react-router-dom"
 import "../css/home.css"
 import Footer from "./Footer"
 import $ from "jquery"
-const active={
-    "color": "#fff",
-    'background': '#ff5832'
-}
+
 class Home extends React.Component{
     tap(i){
         if(i==1){
