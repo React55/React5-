@@ -1,0 +1,45 @@
+
+.eiheader{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white;
+}
+.ic{
+    font-size: 0.3rem;
+}
+
+.aaa{
+    height: 1.2rem;
+    width: 94%;
+    border-top: 1px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    line-height: 1.2rem;
+    background: white;
+}
+.aaa{
+    font-size: 0.3rem;
+    color: black
+}
+.aaa span{
+    font-size: 0.3rem;
+}
+
+.eibottom{
+    padding: 0.4rem 1rem 0rem;
+}
+.eibottom p{
+    color: white;
+    background: #ff5832;
+    font-size: 0.32rem;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: 15px;
+}

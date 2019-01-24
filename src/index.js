@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
 //引入此路径才不会打包失败
 
 
-import * as serviceWorker from './serviceWorker';
+
+
 import 'antd-mobile/dist/antd-mobile.css'
+
+
+import * as serviceWorker from './serviceWorker';
+
+ 
 
 import 'antd-mobile/lib/date-picker/style/css'; //引入antd插件
 ReactDOM.render(<App />, document.getElementById('root'));

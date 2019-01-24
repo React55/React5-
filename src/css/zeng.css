@@ -1,0 +1,113 @@
+.Zeng i{
+	font-style:normal
+}
+.Zeng header {
+	height: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	background: #EEEEEE;
+	line-height: 1rem;
+	font-size: 0.4rem;
+}
+
+.Zeng header i {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+}
+
+.Zeng header span {
+	text-align: center;
+}
+
+.Zeng section {
+	font-size: 0.22rem;
+}
+
+.Zeng section ul {
+	background: #F3F4F5;
+	margin-bottom: 0.16rem;
+}
+
+.Zeng section li {
+	display: flex;	
+	height: 1rem;
+	width: 100%;
+	padding: 0.16rem 0.3rem;
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #E1EDF7;
+	line-height: 0.68rem;
+	background: #FAFAFA;
+	color: red;
+	font-size: 0.3rem;
+}
+
+.Zeng section li span {
+	padding-right: 0.3rem;
+	color: #363636;
+}
+
+.Zeng section li input {
+	background: none;
+	outline: none;
+	border: 0px;
+	font-size: 0.3rem;
+}
+
+.Zeng .list-1 li{
+	justify-content: space-between;
+}
+
+.Zeng .list-1 span {
+	padding: 0;
+}
+
+.Zeng .biao-1 {
+	height: 1rem;
+	line-height: 0.6rem;
+	background: #F3F4F5;
+	font-size: 0.3rem;
+	color: #363636;
+}
+
+.Zeng .list-1 i {
+	margin-left: 0.5rem;
+}
+
+.Zeng footer{
+	display: none;
+	position: absolute;
+	bottom:0 ;
+	height: 3rem;
+	width: 100%;
+}
+
+.Zeng footer li{
+	display: flex;
+	font-size: 0.4rem;	
+}
+
+.Zeng footer .f-1{
+	
+}
+
+.Zeng footer .f-2 input{
+	height: .4rem;
+	width: .4rem;
+}
+
+
+.Zeng footer span{
+	line-height: 1rem;
+}
+
+
+.am-tabs-default-bar-tab{
+	height: 1rem !important;
+	font-size: 0.3rem !important;
+}
+
+

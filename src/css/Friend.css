@@ -1,0 +1,76 @@
+.Friend i{
+	font-style:normal
+}
+
+.Friend header {
+	height: 1.2rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 0.4rem;
+}
+
+.Friend header i {
+	font-size: 0.6rem;
+	
+}
+
+.Friend header span {
+	text-align: center;
+}
+
+.Friend section {
+	font-size: 0.3rem;
+}
+
+.Friend section li {
+	height: 1.8rem;
+	width: 100%;
+	padding: 0.2rem 0.4rem;
+	box-sizing: border-box;
+	border-bottom: 0.06rem solid #E1EDF7;
+}
+
+.Friend section li div {
+	height: 0.7rem;
+	display: flex;
+	line-height: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Friend .t-1 i {
+	font-size: 0.22rem;
+	color: #E1E1E1;
+}
+
+.Friend .icon-qian{
+	font-size: 0.3rem;
+}
+
+.Friend .t-1 span {
+	margin-left:0.2rem ;
+	font-size: 0.26rem;
+}
+
+.Friend .t-2 {
+	font-size: 0.26rem;
+	color: #a1a1a1;
+}
+.Friend .t-2 i{
+	margin-right: 0.2rem;
+}
+
+.Friend .t-2 span {
+	height: 0.4rem;
+	padding: 0 0.2rem;
+	border: 2px solid red;
+	color: red;
+	line-height: 0.4rem;
+	border-radius: 0.4rem;
+}

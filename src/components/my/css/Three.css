@@ -1,0 +1,21 @@
+.thheader{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white;
+}
+.ic{
+    font-size: 0.3rem;
+}
+
+.thimg{
+    width: 100%;
+    overflow: hidden;
+}
+.thimg img{
+    width: 100%
+}
