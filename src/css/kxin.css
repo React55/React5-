@@ -1,0 +1,98 @@
+.Kxin header,
+.Kxin footer {
+	height: 1.2rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 0.4rem;
+}
+
+.Kxin header i {
+	font-size: 0.4rem;
+}
+
+.Kxin header span {
+	text-align: center;
+}
+
+.Kxin section {
+	font-size: 0.3rem;
+}
+
+.Kxin section ul {
+	width: 100%;
+	border-bottom: 0.1rem solid #E1EDF7;
+}
+
+.Kxin section li {
+	height: 1.3rem;
+	line-height: 1.3rem;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 0.02rem solid #E1E1E1;
+}
+
+.Kxin .t-1 p {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 0.5rem;
+}
+
+.Kxin .t-1 p i {
+	font-size: 0.3rem;
+	color: #E1E1E1;
+}
+
+.Kxin .t-2 {
+	font-size: 0.3rem;
+	color: #a1a1a1;
+}
+
+.Kxin .biao-1{
+	height:1rem;
+	background: #E1E1E1;
+}
+
+.Kxin .t-2 span {
+	height: 0.5rem;
+	padding: 0 0.2rem;
+	background: red;
+	line-height: 0.5rem;
+	color: #fff;
+	border-radius: 0.25rem;
+}
+
+.Kxin footer {
+	position: absolute;
+	bottom: 0;
+	padding: 0 0 0 0.3rem;
+	height: 1.2rem;
+}
+
+.Kxin footer p span {
+	font-size: 0.6rem;
+	line-height: 1rem;
+	margin-right: 0.2rem;
+}
+
+.Kxin footer p {
+	display: flex;
+	align-items: center;
+}
+
+.Kxin .te {
+	font-size: 0.3rem;
+}
+
+.am-tabs-content-wrap{
+	height:8rem !important;
+}

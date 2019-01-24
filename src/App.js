@@ -4,6 +4,8 @@ import './App.css';
 import Home from "./components/Home";
 import Eva from "./components/Eva";
 import Friend from "./components/Friend";
+import Zeng from "./components/friend/Zeng";
+import Kxin from "./components/friend/Kxin";
 import My from "./components/My";
 const active={
   "color":"red"
@@ -16,6 +18,8 @@ class App extends Component {
           <Router>
             <div>
                 <Switch>
+                	<Route path="/kxin" component={Kxin}></Route>
+                	<Route path="/zeng" component={Zeng}></Route>
                   <Route path="/home" component={Home}></Route>
                   <Route path="/eva" component={Eva}></Route>
                   <Route path="/friend" component={Friend}></Route>
