@@ -56,11 +56,9 @@
     padding-left: .45rem;
    
 }
-.Eva>section>.poster>.tit{
-    margin-right: .4rem;
-}
-.Eva  .tit{
+.tit{
     height: 1.18rem;
+    margin-right: .1rem;
     font-size: .35rem;
     font-weight: normal;
     color: #a2a2a2;
@@ -69,21 +67,21 @@
     justify-content: space-between;
     border-bottom: .02rem solid #eaeaea;
 }
-.Eva  .tit>div{
+.tit>div{
     display: flex;
     align-items: center;
 }
 a{
     color: #a2a2a2;
 }
-.Eva  .tit>div em{
+.tit>div em{
     display: block;
     height: .35rem;
     width: .1rem;
     background: #ff5935;
     margin-right: .1rem;
 }
-.Eva .tit>div  .iconfont{
+.tit>div  .iconfont{
     font-size: .4rem;
 }
 .Eva>section>.poster>.posterBox{
@@ -142,129 +140,119 @@ a{
     padding-bottom: 1rem;
     padding-right: .45rem;
 }
-.Eva>section>.newBox>.newList>a>li{
+
+.Eva>section>.newBox>.newList>li{
     padding-top: .7rem;
     padding-bottom: .4rem;
-    border-bottom: .02rem solid  #eaeaea;
+    border-bottom: .02rem solid #eaeaea;
+   
 }
-.Eva>section>.newBox>.newList>a>.con{
+.Eva>section>.newBox>.newList>.cont>.contBox>h4{
+   
+    font-weight: normal;
+    color: #ffa14f;
+    font-size: .35rem;
+}
+.Eva>section>.newBox>.newList>.cont>.contBox>h4>em{
+    font-style: normal;
+    color: #000;
+}
+.Eva>section>.newBox>.newList>.cont>.contBox>h5{
     display: flex;
+    align-items: center;
+    
 }
-.Eva>section>.newBox>.newList>a>.con>.conBox>.coverImg{
-    display: none;
+.Eva>section>.newBox>.newList>li>.contBox>h5>div{
+    margin-left: .1rem;
+   display: flex;
 }
-.Eva>section>.newBox>.newList>a>.con>.coverImg>img{
-    display: none;
+.Eva>section>.newBox>.newList>.cont{
+    display: flex;
+    justify-content: space-between;
 }
-.Eva>section>.newBox>.newList>a>.con>.conImg{
-    width: 2rem;
-    height: 2rem;
-    display: block;
-}
-.Eva>section>.newBox>.newList>a>.con>.conImg>img{
-    height: 100%;
-    width: 100%;
-}
-.Eva>section>.newBox>.newList>a>.con>.conBox{
+.Eva>section>.newBox>.newList>li>.contBox{
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex:1;
 }
-.Eva>section>.newBox>.newList>a>.con>.conBox>h4{
+.Eva>section>.newBox>.newList img{
+    height: 100%;
+    width: 100%;
+}
+.Eva>section>.newBox>.newList>li>.contBox>h5{
     font-weight: normal;
-    color: #fda052;
-    font-size: .3rem;
-  
+    font-size: .24rem;
 }
-.Eva>section>.newBox>.newList>a>.con>.conBox>h4>em{
+.Eva>section>.newBox>.newList>li>.contBox>h5 .iconfont{
+    font-size: .28rem;
+}
+.Eva>section>.newBox>.newList>.cont>.conImg{
+     width: 2.4rem;
+     height: 2.4rem;
+     background: red;
+}
+.Eva>section>.newBox>.newList>.cont>.coverBox{
+    display: none;
+}
+.Eva>section>.newBox>.newList>.covers>.contBox{
+    display: none;
+}
+.Eva>section>.newBox>.newList>.covers>.conImg{
+    display: none
+}
+.Eva>section>.newBox>.newList>.covers>.coverBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Eva>section>.newBox>.newList>.covers>.coverBox>h4{
+    font-weight: normal;
+    color: #ffa14f;
+    font-size: .35rem;
+}
+.Eva>section>.newBox>.newList>.covers>.coverBox>h4>em{
     font-style: normal;
     color: #000;
 }
 
-.Eva>section>.newBox>.newList>a>.con>.conBox>h5{
+.Eva>section>.newBox>.newList>.covers>.coverBox>.coverImg>.bigImg{
+    margin-top: .3rem;
+    width: 100%;
+    height: 4.8rem;
+    background: #ff5935;
+}
+.Eva>section>.newBox>.newList>.covers>.coverBox>.coverImg>.smallImg{
+    display: none;
+}
+.Eva>section>.newBox>.newList>.covers>.coverBox>h5{
+    margin-top: .3rem;
     font-weight: normal;
-    font-size: .25rem;
+    font-size: .3rem;
     display: flex;
     justify-content: space-between;
 }
-.Eva>section>.newBox>.newList>a>.con>.conBox>h5>div{
+.Eva>section>.newBox>.newList>.covers>.coverBox>h5>div{
     display: flex;
-    justify-content: space-around;
-    margin-right: .05rem;
+}
+.Eva>section>.newBox>.newList>.covers>.coverBox>h5>div .iconfont{
+    font-size: .3rem;
+    margin-left: .3rem;
+}
 
-}
-.Eva>section>.newBox>.newList>a>.con>.conBox>h5>div>div{
-    margin-right: .05rem;
-
-}
-.Eva>section>.newBox>.newList>a>.con>.conBox>h5 .iconfont{
-    font-size: .25rem;
-    margin-right: .1rem;
-    
-    
-}
-.Eva>section>.newBox>.newList>a>.cover>div>h4{
-    font-weight: normal;
-    color: #fda052;
-    font-size: .35rem;
-}
-.Eva>section>.newBox>.newList>a>.cover>div>h4>em{
-    font-style: normal;
-    color: #000;
-}
-.Eva>section>.newBox>.newList>a>.cover>div>.coverImg{
-    margin-top: .35rem;
-    
-    height: 4.8rem;
-}
-.Eva>section>.newBox>.newList>a>.cover>div>.coverImg>div{
-   display: none;
-}
-.Eva>section>.newBox>.newList>a>.cover>div>.coverImg>img{
-    height: 100%;
-    width: 100%
-}
-.Eva>section>.newBox>.newList>a>.cover>div>h5{
-    font-weight: normal;
-    font-size: .25rem;
+.Eva>section>.newBox>.newList>.covers>.coverBox>.cover2Img{
     display: flex;
     justify-content: space-between;
     margin-top: .3rem;
 }
-.Eva>section>.newBox>.newList>a>.cover>div>h5>div{
-    display: flex;
+.Eva>section>.newBox>.newList>.covers>.coverBox>.cover2Img>.bigImg{
+    display: none;
 }
-.Eva>section>.newBox>.newList>a>.cover>div>h5>div>div{
-    margin-right: .3rem;
-}
-.Eva>section>.newBox>.newList>a>.cover>div>h5 .iconfont{
-    font-size: .3rem;
-    margin-right: .1rem;
-    
+.Eva>section>.newBox>.newList>.covers>.coverBox>.cover2Img>.smallImg{
+    width: 2rem;
+    height: 2rem;
+    background: blue;
 }
 
-.Eva>section>.newBox>.newList>a>.cover>.conImg{
-    display: none;
-}
-.Eva>section>.newBox>.newList>a>.con .coverBox{
-   display: none;
-}
-.Eva>section>.newBox>.newList>a>.cover>.conBox>.coverBox>img{
-    display: none;
-}
-.Eva>section>.newBox>.newList>a>.cover>.conBox>.coverBox{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: .5rem 0;
-}
-.Eva>section>.newBox>.newList>a>.cover>.conBox>.coverBox>div{
-    height: 2rem;
-    width: 2rem;
-    background: #000
-}
-.Eva>section>.newBox>.newList>a>.cover>.conBox>.coverBox>div>img{
-  width: 100%;
-  height: 100%;
-}
+
+

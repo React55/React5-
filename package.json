@@ -1,5 +1,5 @@
 {
-  "name": "pro1",
+  "name": "pro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,17 @@
       },
       "changeOrigin": true
     }
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/React55/React5-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/React55/React5-/issues"
+  },
+  "homepage": "https://github.com/React55/React5-#readme"
 }

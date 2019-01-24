@@ -92,138 +92,205 @@ class Eva extends React.Component{
             )
         })
         //newList
-      
         var newJsx1=[];
-       
+      
         this.state.newArr1.map(function(item,i){
-            newJsx1.push(<NavLink to="/edetail" key={i}> <li className={item.coverImgUrl===null? "cover":"con"}>
-                    <div className="conBox">
-                        <h4>
-                            <span>{item.newsProperty.name}</span>
-                            <i>|</i>       
-                            <em>{item.title}</em>
-                        </h4>
-                        <div className={item.imgUrls===null? "coverBox":"coverImg"}>
-                            <img  src={"https://www.jiayiunion.com/"+item.imgUrls}/>
+            newJsx1.push(
+                <li className={item.coverImgUrl===null? "covers":"cont"} key={i}>
+                <div className="contBox">
+                    <h4>
+                        <span>{item.newsProperty.name}</span>
+                        <i>|</i>
+                        <em>{item.title}</em>
+                    </h4>
+                    <h5>
+                        <time>{item.createTime}</time>
+                        <div>
                             <div>
-                                <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[0]}/>
+                                <em className="iconfont icon-ico_yueduliang"></em>
+                                <span>{item.readedCount}</span>
                             </div>
                             <div>
-                                <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[1]}/>
-                            </div>
-                            <div>
-                            <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[2]}/>
+                                <em className="iconfont icon-share"></em>
+                                <span>{item.forward}</span>
                             </div>
                         </div>
-                        <h5>
-                            <time>{item.createTime}</time>
-                            <div>
-                                <div>
-                                    <em className="iconfont icon-ico_yueduliang"></em>
-                                    <span>{item.readedCount}</span>
-                                </div>
-                                <div>
-                                    <em className="iconfont icon-share"></em>
-                                    <span>{item.forward}</span>
-                                </div>
-                            </div>
-                        </h5>
+                    </h5>
+                </div>
+                <div className="conImg">
+                    <img src={"https://www.jiayiunion.com/"+item.coverImgUrl}/>
+                </div>
+                <div className="coverBox">
+                    <h4>
+                        <span>{item.newsProperty.name}</span>
+                        <i>|</i>
+                        <em>{item.title}</em>
+                    </h4>
+                    <div className={item.imgUrls===null? "cover2Img":"coverImg"}>
+                        <div className="bigImg">
+                            <img  src={"https://www.jiayiunion.com/"+item.imgUrls}/>
+                        </div>
+                        <div className="smallImg">
+                            <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[0]}/>
+                        </div>
+                        <div className="smallImg">
+                        <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[1]}/>
+                        </div>
+                        <div className="smallImg">
+                        <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[2]}/>
+                        </div>
                     </div>
-                    <div className="conImg">
-                        <img src={"https://www.jiayiunion.com/"+item.coverImgUrl}/>
-                    </div> 
-            </li>
-            </NavLink>
-            ) 
+                    <h5>
+                        <time>{item.createTime}</time>
+                        <div>
+                            <div>
+                                <em className="iconfont icon-ico_yueduliang"></em>
+                                <span>{item.readedCount}</span>
+                            </div>
+                            <div>
+                                <em className="iconfont icon-share"></em>
+                                <span>{item.forward}</span>
+                            </div>
+                        </div>
+                    </h5>
+                </div>
+           </li>
+            )
         })
+        
+
         var newJsx2=[];
        
         this.state.newArr2.map(function(item,i){
-            newJsx2.push(<NavLink to="/edetail" key={i}> <li className={item.coverImgUrl===null? "cover":"con"}>
-                    <div className="conBox">
-                        <h4>
-                            <span>{item.newsProperty.name}</span>
-                            <i>|</i>
-                            <em>{item.title}</em>
-                        </h4>
-                        <div className={item.imgUrls===null? "coverBox":"coverImg"}>
-                            <img  src={"https://www.jiayiunion.com/"+item.imgUrls}/>
+            newJsx2.push(
+                <li className={item.coverImgUrl===null? "covers":"cont"} key={i}>
+                <div className="contBox">
+                    <h4>
+                        <span>{item.newsProperty.name}</span>
+                        <i>|</i>
+                        <em>{item.title}</em>
+                    </h4>
+                    <h5>
+                        <time>{item.createTime}</time>
+                        <div>
                             <div>
-                                <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[0]}/>
+                                <em className="iconfont icon-ico_yueduliang"></em>
+                                <span>{item.readedCount}</span>
                             </div>
                             <div>
-                                <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[1]}/>
-                            </div>
-                            <div>
-                            <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[2]}/>
+                                <em className="iconfont icon-share"></em>
+                                <span>{item.forward}</span>
                             </div>
                         </div>
-                        <h5>
-                            <time>{item.createTime}</time>
-                            <div>
-                                <div>
-                                    <em className="iconfont icon-ico_yueduliang"></em>
-                                    <span>{item.readedCount}</span>
-                                </div>
-                                <div>
-                                    <em className="iconfont icon-share"></em>
-                                    <span>{item.forward}</span>
-                                </div>
-                            </div>
-                        </h5>
+                    </h5>
+                </div>
+                <div className="conImg">
+                    <img src={"https://www.jiayiunion.com/"+item.coverImgUrl}/>
+                </div>
+                <div className="coverBox">
+                    <h4>
+                        <span>{item.newsProperty.name}</span>
+                        <i>|</i>
+                        <em>{item.title}</em>
+                    </h4>
+                    <div className={item.imgUrls===null? "cover2Img":"coverImg"}>
+                        <div className="bigImg">
+                            <img  src={"https://www.jiayiunion.com/"+item.imgUrls}/>
+                        </div>
+                        <div className="smallImg">
+                            <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[0]}/>
+                        </div>
+                        <div className="smallImg">
+                        <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[1]}/>
+                        </div>
+                        <div className="smallImg">
+                        <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[2]}/>
+                        </div>
                     </div>
-                    <div className="conImg">
-                        <img src={"https://www.jiayiunion.com/"+item.coverImgUrl}/>
-                    </div> 
-            </li>
-            </NavLink>
-            ) 
+                    <h5>
+                        <time>{item.createTime}</time>
+                        <div>
+                            <div>
+                                <em className="iconfont icon-ico_yueduliang"></em>
+                                <span>{item.readedCount}</span>
+                            </div>
+                            <div>
+                                <em className="iconfont icon-share"></em>
+                                <span>{item.forward}</span>
+                            </div>
+                        </div>
+                    </h5>
+                </div>
+           </li>
+            )
         })
+
 
         var newJsx3=[];
+       
         this.state.newArr3.map(function(item,i){
-            newJsx3.push(<NavLink to="/edetail"  key={i}> <li className={item.coverImgUrl===null? "cover":"con"}>
-                    <div className="conBox">
-                        <h4>
-                            <span>{item.newsProperty.name}</span>
-                            <i>|</i>
-                            <em>{item.title}</em>
-                        </h4>
-                        <div className={item.imgUrls===null? "coverBox":"coverImg"}>
-                            <img  src={"https://www.jiayiunion.com/"+item.imgUrls}/>
+            newJsx3.push(
+                <li className={item.coverImgUrl===null? "covers":"cont"} key={i}>
+                <div className="contBox">
+                    <h4>
+                        <span>{item.newsProperty.name}</span>
+                        <i>|</i>
+                        <em>{item.title}</em>
+                    </h4>
+                    <h5>
+                        <time>{item.createTime}</time>
+                        <div>
                             <div>
-                                <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[0]}/>
+                                <em className="iconfont icon-ico_yueduliang"></em>
+                                <span>{item.readedCount}</span>
                             </div>
                             <div>
-                                <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[1]}/>
-                            </div>
-                            <div>
-                            <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[2]}/>
+                                <em className="iconfont icon-share"></em>
+                                <span>{item.forward}</span>
                             </div>
                         </div>
-                        <h5>
-                            <time>{item.createTime}</time>
-                            <div>
-                                <div>
-                                    <em className="iconfont icon-ico_yueduliang"></em>
-                                    <span>{item.readedCount}</span>
-                                </div>
-                                <div>
-                                    <em className="iconfont icon-share"></em>
-                                    <span>{item.forward}</span>
-                                </div>
-                            </div>
-                        </h5>
+                    </h5>
+                </div>
+                <div className="conImg">
+                    <img src={"https://www.jiayiunion.com/"+item.coverImgUrl}/>
+                </div>
+                <div className="coverBox">
+                    <h4>
+                        <span>{item.newsProperty.name}</span>
+                        <i>|</i>
+                        <em>{item.title}</em>
+                    </h4>
+                    <div className={item.imgUrls===null? "cover2Img":"coverImg"}>
+                        <div className="bigImg">
+                            <img  src={"https://www.jiayiunion.com/"+item.imgUrls}/>
+                        </div>
+                        <div className="smallImg">
+                            <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[0]}/>
+                        </div>
+                        <div className="smallImg">
+                        <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[1]}/>
+                        </div>
+                        <div className="smallImg">
+                        <img src={item.contentImgUrls===null?"null":"https://www.jiayiunion.com/"+item.contentImgUrls.split(",")[2]}/>
+                        </div>
                     </div>
-                    <div className="conImg">
-                        <img src={"https://www.jiayiunion.com/"+item.coverImgUrl}/>
-                    </div> 
-            </li>
-            </NavLink>
-            ) 
-        })
-
-
+                    <h5>
+                        <time>{item.createTime}</time>
+                        <div>
+                            <div>
+                                <em className="iconfont icon-ico_yueduliang"></em>
+                                <span>{item.readedCount}</span>
+                            </div>
+                            <div>
+                                <em className="iconfont icon-share"></em>
+                                <span>{item.forward}</span>
+                            </div>
+                        </div>
+                    </h5>
+                </div>
+           </li>
+            )
+        })       
 
         return(
             <div className="Eva">
@@ -272,9 +339,11 @@ class Eva extends React.Component{
                            </div>
                         </h2>
                         <ul className="newList">
-                           {newJsx1}
-                           {newJsx2}
-                           {newJsx3}
+                            {newJsx1}
+                            {newJsx2}
+                            {newJsx3}  
+                           
+                           
                         </ul>
                    
                    </div>
