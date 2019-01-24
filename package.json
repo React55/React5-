@@ -30,7 +30,8 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "reactjs-iscroll": "^0.3.2",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "swiper": "^4.4.6"
   },
   "proxy": {
     "/apis": {
