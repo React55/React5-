@@ -64,18 +64,18 @@ class Detail extends React.Component{
                         </div>
                         <div className="right2">
                             <i className="iconfont icon-dianhua"></i>
-                            <i className="iconfont icon-duanxin"></i>
+                            <i className="iconfont icon-wode"></i>
                         </div>
                    </div>
                    <p>基本信息</p>
                    <div className="xinxi">
                         <div className="xinxi-top">
                             <p>
-                                <i className="iconfont icon-nianbao"></i>
+                                <i className="iconfont icon-wode"></i>
                                 <span>{this.state.detail.age}</span>
-                                <i className="iconfont icon-ditu1"></i>
+                                <i className="iconfont icon-wode"></i>
                                 <span>{this.state.detail.work_city_name}</span>
-                                <i className="iconfont icon-shijian"></i>
+                                <i className="iconfont icon-wode"></i>
                                 <span>上班族</span>
                             </p>
                             <p>

@@ -3,7 +3,8 @@
     flex-direction: column;
 }
 .Home>header{
-    position: absolute;
+    position: fixed;
+    z-index: 33;
     top: 0;
     height: .9rem;
     background: pink;
@@ -58,7 +59,8 @@
     height: 0.8rem;
     border-top: 1px solid #ccc;
     background: #f6f6f6;
-    position: absolute;
+    position: fixed;
+    z-index: 22;
     top: 0.9rem;
     
 }
@@ -70,7 +72,7 @@
     overflow-x: auto;
 }
 .Home>section>.top1>.right{
-    width: 12vw;
+    width: 11vw;
     float: left;
     height: 0.8rem;
     background: #f6f6f6;
