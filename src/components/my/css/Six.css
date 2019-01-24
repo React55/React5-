@@ -1,0 +1,40 @@
+
+.siheader{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white;
+}
+.ic{
+    font-size: 0.3rem;
+}
+
+.my-accordion .pad .am-accordion-content-box {
+    padding: 10px;
+}
+
+.am-accordion .am-accordion-item .am-accordion-header{
+    height: 1rem !important;
+    font-size: 0.3rem !important;
+    line-height: 1rem !important;
+    padding-left: 0.3rem !important
+}
+.am-accordion .am-accordion-item .am-accordion-header i{
+    height: 1rem !important;
+    width: 0.2rem !important;
+    height: 0.2rem !important;
+    top:0.4rem !important;
+    right: 0.3rem !important;
+    
+}
+.am-accordion .am-accordion-item .am-accordion-content .am-accordion-content-box{
+    height: 1rem !important;
+    font-size: 0.3rem !important
+}
+.am-accordion-content-box{
+    padding-left: 0.3rem !important
+}

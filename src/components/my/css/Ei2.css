@@ -1,0 +1,34 @@
+.ei2{
+    
+}
+.ei2header{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white
+}
+.ic{
+    font-size: 2.3rem;
+}
+
+.aaa{
+    height: 1rem;
+    width: 94%;
+    border-top: 2px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    line-height: 1rem;
+    background: white;
+}
+.aaa{
+    font-size: 0.3rem;
+    color: black
+}
+.aaa span{
+    font-size: 0.3rem;
+}

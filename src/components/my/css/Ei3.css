@@ -1,0 +1,31 @@
+.ei3{
+    
+}
+.ei3header{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white
+}
+.ic{
+    font-size: 0.3rem;
+}
+.ei3content{
+    height: 13.5rem;
+}
+.ei3content img{
+    margin: 1rem auto 2rem;
+}
+.ei3content p{
+    text-indent: 0.5rem;
+    font-size: 0.26rem;
+    padding: 0 .6rem;
+}
+.ei3bottom h3{
+    text-align: center;
+    font-size: 0.28rem;
+}

@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd-mobile": "^2.2.8",
+    "rc-form": "^2.4.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "^1.1.5"
+    "react-scripts": "^1.1.5",
+    "react-sticky": "^6.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,6 +25,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "antd-mobile": "^2.2.8",
     "jquery": "^3.3.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -31,6 +33,13 @@
     "redux-thunk": "^2.3.0"
   },
   "proxy": {
+    "/apis": {
+      "target": "https://www.jiayiunion.com/creditUnion/system/getAllRewardStandardList",
+      "pathRewrite": {
+        "^/apis": ""
+      },
+      "changeOrigin": true
+    },
     "/api": {
       "target": "https://www.jiayiunion.com",
       "pathRewrite": {

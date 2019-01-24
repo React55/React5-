@@ -1,0 +1,68 @@
+.four{
+    background: white
+}
+.foheader{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    border-bottom: 2px solid #cccccc
+}
+.ic{
+    font-size: 0.3rem;
+}
+.tel{
+    text-align: center;
+    padding: 0.8rem 0;
+    margin-top: 0.2rem;
+}
+.tel i{
+    font-size: 0.4rem;
+    color: blue;
+    margin-left: 0.4rem;
+}
+.tel span{
+    font-size: 0.28rem;
+    margin-left: 0.2rem
+}
+.tex{
+    padding: 0 0.2rem;
+    font-size: 0.3rem;
+    margin-bottom: 1px solid black;
+}
+textarea{
+    color: #cccccc;
+    text-indent: 0.2rem;
+    outline: none;
+    border: 0;
+    border:1px solid #cccccc
+}
+.ipt{
+    margin-top: 0.3rem;
+    padding: 0 3%;
+}
+.ipt input{
+    height: 1rem;
+    width: 100%;
+    font-size: 0.3rem;
+    text-indent: 0.2rem;
+    color: #cccccc;
+    outline: none;
+    border: 0;
+    border:1px solid #cccccc
+}
+.fobottom{
+    margin: 7.2rem 0.3rem 0.2rem;
+}
+.fobottom p{
+    color: white;
+    background: #ff5832;
+    font-size: 0.32rem;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: 15px;
+}

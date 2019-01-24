@@ -1,0 +1,40 @@
+.ei0{
+    
+}
+.ei0header{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white
+}
+.ic{
+    font-size: 0.3rem;
+}
+.ei0content{
+    text-align: center;
+    margin: 2.4rem 0;
+}
+.ei0content p{
+    font-size: 1rem;
+}
+.ei0content span{
+    font-size: .28rem
+}
+
+.ei0bottom{
+    margin: 9.6rem 0.3rem 0.2rem;
+    display: block
+}
+.ei0bottom p{
+    color: white;
+    background: #ff5832;
+    font-size: 0.32rem;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: 15px;
+}

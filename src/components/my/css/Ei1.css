@@ -1,0 +1,57 @@
+.ei1{ 
+    
+}
+.ei1header{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white;
+    border:1px solid #cccccc
+}
+.ic{
+    font-size: 0.3rem;
+}
+.c{
+    font-size: 0.36rem;
+}
+
+.am-list-line{
+    height: 1rem!important;
+}
+.am-list-extra{
+    height: 1rem!important;
+    
+}
+.am-switch input[type="checkboxZ"]{
+    width: 6rem !important;
+}
+.am-switch .checkbox{
+    width:136px !important;
+    height: 53px !important;
+    margin-top: 0.3rem !important;
+}
+.am-list-content{
+    font-size: 0.3rem!important;
+    height: 1rem;
+    line-height: 1rem!important;
+    margin-left: 0.2rem;
+}
+.ei0title{
+    height: 1rem;
+    font-size: 0.3rem;
+    line-height: 1rem;
+    margin-left: 0.28rem;
+}
+.ei0lx span{
+    background: #FF5832;
+    padding: 0.1rem 0.3rem;
+    font-size: 0.26rem;
+    border-radius: 15px;
+    margin-left: 0.2rem;
+    line-height: 86px;
+    color: white;
+}

@@ -1,0 +1,83 @@
+.twheader{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    background: white;
+}
+.ic{
+    font-size: 0.3rem;
+}
+
+.twtitle{
+    height: 2rem;
+    background: #FE7758;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+.twimg{
+    margin: 0 auto;
+    font-size:0.7rem;
+    color: white;
+}
+.twtitle span{
+    font-size: 0.4rem;
+    color: white;
+}
+.twctit{
+    display: flex;
+    padding: 0 .2rem;
+    justify-content: space-between;
+    background: #F3F4F5;
+    height: .8rem;
+}
+.twctit p{
+    font-size: .3rem; 
+    line-height: .8rem; 
+    color: #6F7070
+}
+.twctit span{
+    font-size: .3rem; 
+    line-height: .8rem; 
+}
+.twctit span i{
+    font-size: .2rem; 
+    line-height: .8rem; 
+    color: #B5B6B6
+}
+.jinbi{
+    display: flex;
+    height: 1.2rem;
+    padding: 0 .3rem;
+    justify-content: space-between;
+    padding-top: .5rem;
+    background: white;
+    border-bottom:2px solid #cccccc; 
+}
+
+.jinbi .lefts p{
+    font-size: .3rem; 
+}
+.jinbi .lefts span{
+    font-size: .26rem; 
+}
+.rights span{
+    color: #FF5832;
+    font-size: .32rem;
+    margin-right: .2rem;
+}
+.rights .cz{
+    display: inline-block;
+    width: 1.8rem;
+    height: 0.7rem;
+    background: #FF5832;
+    font-size: .32rem;
+    border-radius: 50px;
+    text-align: center;
+    line-height: .7rem;
+    color: white;
+    margin-right: 0rem;
+}

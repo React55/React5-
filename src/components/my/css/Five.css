@@ -1,0 +1,48 @@
+.five{
+    background: white;
+    height: 100%;
+}
+.fiheader{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    height:1.2rem ;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+}
+.ic{
+    font-size: 0.3rem;
+}
+
+.fititle{
+    height: 2rem;
+    background: #FE7758;
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.fiimg{
+    
+    margin: 0 auto;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: #cccccc
+}
+.ficontent{
+    height: 80%;
+}
+/* #m-tabs-0-0{
+    height: 1.1rem !important;
+    font-size: 0.3rem;
+} */
+.am-tabs-default-bar-tab{
+    height: 1.1rem!important;
+    font-size: 0.3rem !important;
+}
+.am-tabs-default-bar-tab-active{
+    color: #FE7758!important;
+}
+.am-tabs-default-bar-underline{
+    border-bottom: 2px solid #FE7758!important;
+}
